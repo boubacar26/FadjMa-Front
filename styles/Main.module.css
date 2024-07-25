@@ -1,0 +1,54 @@
+.bouton{
+    background-color: white;
+    width: 192px;
+    height: 46px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.carte{
+    border: 1px solid #01A768 ;
+    Width: 212px;
+    Height: 152px;
+}
+.carte .image{
+    margin-top: 10%;
+}
+
+.carte p{
+    margin-bottom: 15px;
+}
+.carte1{
+    border: 1px solid #FED600 ;
+    Width: 212px;
+    Height: 152px;
+}
+.carte1 .image {
+    margin-top: 10%;
+}
+.carte2 .image {
+    margin-top: 10%;
+}
+.carte3 .image {
+    margin-top: 10%;
+}
+
+.carte1 p {
+    margin-bottom: 15px;
+}
+.carte2{
+    border: 1px solid #03A9F5 ;
+    Width: 212px;
+    Height: 152px;
+}
+.carte2 p {
+    margin-bottom: 15px;
+}
+.carte3{
+    border: 1px solid #F0483E ;
+    Width: 212px;
+    Height: 152px;
+}
+.carte3 p {
+    margin-bottom: 15px;
+}

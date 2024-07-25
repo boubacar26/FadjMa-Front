@@ -8,26 +8,44 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bloc{
+  border: 1px solid black;
+  background-color: #fff;
+  width: 40%;
+  /* height: 104px; */
+  border-radius: 4px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bloc h6{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+.titre{
+  border-bottom: 1px solid black;
+  padding: 3%;
+}
+
+.titre p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.infos{
+  padding: 4%;
+}
+
+.infos .num{
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 20px;
+}
+
+
+.card{
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
