@@ -20,7 +20,7 @@ export default function MedicamentDetail() {
       const fetchMedicament = async () => {
         try {
           const response = await axios.get(
-            `http://localhost:8080/admin/medicament/${id}`
+            `https://fadjma-back.onrender.com/admin/medicament/${id}`
           );
           setMedicament(response.data);
         } catch (error) {

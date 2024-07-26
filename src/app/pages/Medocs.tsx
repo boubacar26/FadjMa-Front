@@ -31,7 +31,7 @@ export default function Medocs() {
     const fetchMedicaments = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8080/admin/medicament/liste-medocs"
+          "https://fadjma-back.onrender.com/admin/medicament/liste-medocs"
         );
         setMedicamentData(response.data);
       } catch (error) {
@@ -53,9 +53,9 @@ export default function Medocs() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8080/admin/medicament", newMedicament);
+      await axios.post("https://fadjma-back.onrender.com/admin/medicament", newMedicament);
       const response = await axios.get(
-        "http://localhost:8080/admin/medicament/liste-medocs"
+        "https://fadjma-back.onrender.com/admin/medicament/liste-medocs"
       );
       setMedicamentData(response.data);
       setNewMedicament({ name: "", _id: "", groupName: "", stock: "" });
@@ -216,7 +216,7 @@ export default function Medocs() {
 //     const fetchMedicaments = async () => {
 //       try {
 //         const response = await axios.get(
-//           "http://localhost:8080/admin/medicament/liste-medocs"
+//           "https://fadjma-back.onrender.com/admin/medicament/liste-medocs"
 //         );
 //         setMedicamentData(response.data);
 //       } catch (error) {
