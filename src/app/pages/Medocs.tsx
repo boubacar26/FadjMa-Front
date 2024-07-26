@@ -97,6 +97,9 @@ export default function Medocs() {
 
         <FormButton onClick={openModal} />
 
+
+        {/* MODAL */}
+        
         <Modal
           isOpen={modalOpen}
           onClose={closeModal}
